@@ -1,0 +1,50 @@
+body {
+    font-family: 'Sarabun', sans-serif;
+}
+
+.custom-nav {
+    background: #7b0000;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("https://www.finearts.go.th/uploads/tinymce/source/77/9.jpg") center/cover fixed;
+}
+
+.timeline-card {
+    background: white;
+    padding: 25px;
+    border-left: 5px solid gold;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.timeline-card:hover {
+    transform: translateY(-8px);
+}
+
+.gallery-img {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+.custom-footer {
+    background: #7b0000;
+}
+
+.social-icon {
+    color: white;
+    margin-left: 12px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    color: gold;
+}
